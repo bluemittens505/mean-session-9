@@ -1,0 +1,298 @@
+C:\mean-session9-master\4-test>npm start
+npm ERR! Windows_NT 6.3.9600
+npm ERR! argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (
+x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v0.12.7
+npm ERR! npm  v2.11.3
+npm ERR! file C:\mean-session9-master\4-test\package.json
+npm ERR! code EJSONPARSE
+
+npm ERR! Failed to parse json
+npm ERR! Unexpected token 'p' at 5:18
+npm ERR!     "start": "c:\python27\python -m SimpleHTTPServer"
+npm ERR!                  ^
+npm ERR! File: C:\mean-session9-master\4-test\package.json
+npm ERR! Failed to parse package.json data.
+npm ERR! package.json must be actual JSON, not just JavaScript.
+npm ERR!
+npm ERR! This is not a bug in npm.
+npm ERR! Tell the package author to fix their package.json file. JSON.parse
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\mean-session9-master\4-test\npm-debug.log
+
+C:\mean-session9-master\4-test>npm name
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, add-user, adduser, apihelp, author, bin, bugs, c,
+    cache, completion, config, ddp, dedupe, deprecate, dist-tag,
+    dist-tags, docs, edit, explore, faq, find, find-dupes, get,
+    help, help-search, home, i, info, init, install, issues, la,
+    link, list, ll, ln, login, logout, ls, outdated, owner,
+    pack, prefix, prune, publish, r, rb, rebuild, remove, repo,
+    restart, rm, root, run-script, s, se, search, set, show,
+    shrinkwrap, star, stars, start, stop, t, tag, test, tst, un,
+    uninstall, unlink, unpublish, unstar, up, update, upgrade,
+    v, verison, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Barbara\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@2.11.3 C:\Program Files (x86)\nodejs\node_modules\npm
+
+C:\mean-session9-master\4-test>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mean-session9-master\4-test>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is A29C-8DA7
+
+ Directory of C:\mean-session9-master\4-test
+
+08/03/2015  08:18 PM    <DIR>          .
+08/03/2015  08:18 PM    <DIR>          ..
+08/03/2015  07:55 PM               625 Gruntfile.js
+08/03/2015  07:40 PM                35 main.scss
+08/03/2015  08:08 PM    <DIR>          node_modules
+08/03/2015  08:17 PM               278 package.json
+               3 File(s)            938 bytes
+               3 Dir(s)  51,975,237,632 bytes free
+
+C:\mean-session9-master\4-test>npm start
+
+> 4-test@1.0.0 start C:\mean-session9-master\4-test
+> c:\python27\python -m SimpleHTTPServer
+
+Serving HTTP on 0.0.0.0 port 8000 ...
+^CTerminate batch job (Y/N)? Traceback (most recent call last):
+  File "c:\python27\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "c:\python27\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "c:\python27\lib\SimpleHTTPServer.py", line 235, in <module>
+    test()
+  File "c:\python27\lib\SimpleHTTPServer.py", line 231, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "c:\python27\lib\BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "c:\python27\lib\SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "c:\python27\lib\SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+^C
+C:\mean-session9-master\4-test>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mean-session9-master\4-test>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is A29C-8DA7
+
+ Directory of C:\mean-session9-master\4-test
+
+08/03/2015  08:18 PM    <DIR>          .
+08/03/2015  08:18 PM    <DIR>          ..
+08/03/2015  07:55 PM               625 Gruntfile.js
+08/03/2015  07:40 PM                35 main.scss
+08/03/2015  08:08 PM    <DIR>          node_modules
+08/03/2015  08:21 PM               280 package.json
+               3 File(s)            940 bytes
+               3 Dir(s)  51,962,720,256 bytes free
+
+C:\mean-session9-master\4-test>cd ..
+
+C:\mean-session9-master>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mean-session9-master>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is A29C-8DA7
+
+ Directory of C:\mean-session9-master
+
+08/03/2015  07:06 PM    <DIR>          .
+08/03/2015  07:06 PM    <DIR>          ..
+08/03/2015  06:20 PM    <DIR>          1-angular-animation
+08/03/2015  06:20 PM    <DIR>          2-angular-animation
+08/03/2015  08:34 PM    <DIR>          3-data-visualization
+08/03/2015  08:18 PM    <DIR>          4-test
+08/03/2015  06:20 PM    <DIR>          other
+08/03/2015  06:21 PM    <DIR>          pirate-portfolio
+08/03/2015  06:20 PM               546 README.md
+               1 File(s)            546 bytes
+               8 Dir(s)  51,962,720,256 bytes free
+
+C:\mean-session9-master>cd 3-dat*
+
+C:\mean-session9-master\3-data-visualization>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\mean-session9-master\3-data-visualization>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is A29C-8DA7
+
+ Directory of C:\mean-session9-master\3-data-visualization
+
+08/03/2015  08:34 PM    <DIR>          .
+08/03/2015  08:34 PM    <DIR>          ..
+08/03/2015  06:20 PM    <DIR>          .sass-cache
+08/03/2015  08:35 PM    <DIR>          css
+08/03/2015  06:20 PM            20,388 design.png
+08/03/2015  08:35 PM               635 Gruntfile.js
+08/03/2015  06:20 PM             2,300 index.html
+08/03/2015  08:34 PM    <DIR>          node_modules
+08/03/2015  08:33 PM               281 package.json
+               4 File(s)         23,604 bytes
+               5 Dir(s)  51,962,720,256 bytes free
+
+C:\mean-session9-master\3-data-visualization>grunt
+Running "sass:dist" (sass) task
+Warning:
+You need to have Ruby and Sass installed and in your PATH for this task to work.
+
+More info: https://github.com/gruntjs/grunt-contrib-sass
+ Use --force to continue.
+
+Aborted due to warnings.
+
+C:\mean-session9-master\3-data-visualization>path
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.
+11 Network Adapter\Driver;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program F
+iles\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL
+SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program F
+iles\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Inte
+l(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Mana
+gement Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management En
+gine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files
+\Lenovo\Bluetooth Software\syswow64;C:\ProgramData\Lenovo\ReadyApps;C:\Program F
+iles (x86)\nodejs\;C:\Users\Barbara\AppData\Roaming\npm
+
+C:\mean-session9-master\3-data-visualization>npm start
+
+> Dataviz@1.0.0 start C:\mean-session9-master\3-data-visualization
+> c:\python27\python -m SimpleHTTPServer
+
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [03/Aug/2015 20:43:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:43:17] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:43:17] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:43:17] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:43:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:45:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:45:30] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:45:30] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:52:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:52:02] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:52:02] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:52:02] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:52:03] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 20:52:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:52:59] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:52:59] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:52:59] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:52:59] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 20:54:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:54:18] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:54:18] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:54:18] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:54:18] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 20:58:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:58:26] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:58:26] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:58:26] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:59:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:59:24] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:59:24] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 20:59:24] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 20:59:24] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 20:59:25] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:07:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:07:30] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:07:30] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:07:30] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:07:30] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:07:31] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:07:31] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:07:31] "GET /partials/register.html HTTP/1.1" 404
+-
+127.0.0.1 - - [03/Aug/2015 21:09:31] "GET /partials/graph.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:09:35] "GET /partials/login.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:09:36] "GET /partials/register.html HTTP/1.1" 200
+-
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:13:04] "GET /partials/graph.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:14] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:13:14] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:13:14] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:13:14] "GET /partials/login.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:23:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:23:31] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:23:31] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:23:31] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:23:31] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:23:31] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:23:32] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:23:32] "GET /partials/graph.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:29:35] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:29:36] "GET /partials/graph.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] code 404, message File not found
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [03/Aug/2015 21:30:56] "GET /partials/graph.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2015 20:45:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2015 20:45:41] "GET /css/graphstyles.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2015 20:45:41] code 404, message File not found
+127.0.0.1 - - [04/Aug/2015 20:45:41] "GET /js/angular.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [04/Aug/2015 20:45:42] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2015 20:45:42] "GET /app/controllers/controller.js HTTP/1.
+1" 200 -
+127.0.0.1 - - [04/Aug/2015 20:45:42] "GET /partials/navigation.html HTTP/1.1" 20
+0 -
+127.0.0.1 - - [04/Aug/2015 20:45:42] "GET /partials/login.html HTTP/1.1" 200 -

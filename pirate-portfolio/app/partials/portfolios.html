@@ -1,0 +1,37 @@
+<div class="content">
+
+  <form name="add_portfolio_form" action="" novalidate >
+    <div class="panel-heading"> 
+      <h3> Add new album</h3>
+      <div class="alert alert-danger" ng-show="add_portfolio_error">
+        {{add_portfolio_error}}
+      </div>
+      <input type="text" placeholder="title" size="20" ng-model="adding_portfolio.title" />
+      <span class="portfolio-date">
+        <input type="date" name="date" placeholder="yyyy/mm/dd" size="10" ng-model="adding_portfolio.date" ng-required="true" ng-minlength="7" />
+      </span>
+    <div class="panel-body">
+      <textarea placeholder="description" rows="4" style="width:100%;" ng-model="adding_portfolio.description"></textarea>
+      <input type="text" placeholder="short name" ng-model="adding_portfolio.name" />
+      <button ng-click="addPortfolio(adding_portfolio)" type="button" class="btn btn-success">Add Portfolio</button>
+    </div>
+  </form>
+
+  <article class="portfolio-item group" ng-repeat="portfolio in portfolios | filter:searchFor | orderBy:'date' ">
+    <header class="portfolio-info">
+      <a href="index.html#/portfolio/{{portfolio.name}}">
+       <span class="title" ng-bind="portfolio.title"></span>
+     </a>
+     <span class="date" ng-bind="portfolio.date"></span>
+     <div class="description">
+      {{ portfolio.description }}
+    </div>
+  </header>
+  <figure class="portfolio-image">
+    <img class="img-responsive" ng-src="images/{{ portfolio.imageurl }}" />
+  </figure>
+</article>
+
+
+
+</div>
